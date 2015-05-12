@@ -1,0 +1,29 @@
+{
+  "name": "canari-reporter-slack",
+  "version": "0.1.0",
+  "description": "Slack reporter for canari",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mtharrison/canari-reporter-slack.git"
+  },
+  "keywords": [
+    "graphite",
+    "alerting",
+    "statsd",
+    "monitoring"
+  ],
+  "author": "Matt Harrison",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mtharrison/canari-reporter-slack/issues"
+  },
+  "homepage": "https://github.com/mtharrison/canari-reporter-slack",
+  "dependencies": {
+    "joi": "^6.4.1",
+    "slack-notify": "^0.1.4"
+  }
+}
